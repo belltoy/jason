@@ -27,9 +27,10 @@ defmodule JasonBench.MixProject do
       {:benchee_html, "~> 1.0"},
       {:poison, "~> 3.0"},
       {:exjsx, "~> 4.0"},
+      {:jsx, "~> 2.10.0", override: true},
       {:tiny, "~> 1.0"},
       {:jsone, "~> 1.4"},
-      {:jiffy, "~> 0.14"},
+      {:jiffy, "~> 1.0.8"},
       {:json, "~> 1.0"},
     ]
   end
